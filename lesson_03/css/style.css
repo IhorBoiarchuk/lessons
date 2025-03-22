@@ -1,0 +1,135 @@
+@import url("reset.css");
+
+
+a{
+	color: blue;
+}
+
+h1,
+h2{
+	color: rgb(178, 47, 47);
+}
+
+h2#text-1{
+	color: #71fc07;
+}
+
+h2{
+	color: rgb(247, 175, 7);
+}
+
+h2#text-2 + p{
+	color: #4597f7;
+}
+
+h2#text-4 + p{
+	color: #d6f109;
+}
+ 
+.list-item .item-link{
+	color: rgb(175, 12, 235);
+}
+
+.list-item [class*="lin"]{
+	color: green;
+}
+
+.list-item a.item-link{
+	color: red;
+}
+
+.header-section .main-title{
+	color: #f807fc;
+}
+
+.navigation-item .navigation-link{
+	color: rgb(247, 175, 7);
+}
+
+.navigation-item [href*="#text-1"]{
+	color: #71fc07;
+}
+
+.contacts-list .contacts-link{
+	color: green;
+}
+
+.text-decor{
+	color: #f807fc;
+}
+
+.main-wrapper .section-text{
+	color: rgb(255, 122, 197);
+}
+
+.final-text.text{
+	color: aqua;
+}
+
+.footer-sublist *{
+	color: rgb(237, 5, 5);
+}
+
+.foter-contacts + .copyright{
+	color: green;
+}
+
+p.copyright-text{
+	color: blue;
+}
+
+mark{
+	color: rgb(233, 6, 146);
+}
+
+.marked-text{
+	color: #71fc07;
+}
+
+[title*="Wik"]{
+	color: red;
+}
+
+
+/* ========================================================================================== */
+
+/* [style*="col"] ~ li{ 
+	color: green;
+}*/
+ul li{
+	color: red;
+}
+
+ul li ~li{
+	color: green;
+}
+
+li ul li{
+	color: blue;
+}
+
+li ul li + li{
+	color: orange;
+}
+
+li ol li{
+	color: #4597f7;
+}
+
+li ol li span,
+li ol li + li {
+	color: #5d5d5d
+}
+
+li span{
+	color: #a0f0fc;
+}
+
+
+
+
+
+
+
+
+
