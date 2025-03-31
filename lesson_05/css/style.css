@@ -1,0 +1,248 @@
+@import url(fonts.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+
+
+@import url("reset.css");
+
+
+
+
+body{
+	font-family: "ZvinSerif", serif;
+	color: rgb(157, 200, 72);
+	line-height: 1.5;
+	font-size: 18px;
+	background-color: rgb(219, 219, 219);
+	
+
+}
+
+.header-wrap{
+	background-color: #f8c2f1;
+}
+
+.main-section{
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+.logo-link{
+	font-family: "Timmana", sans-serif;
+	font-size: 30px;
+	color: rgb(255, 145, 0);
+	
+	
+}
+.menu-list{
+	text-align: center;
+	margin-top: -45px;
+}
+
+.contacts-sublist{
+	text-align: right;
+	margin-top: -80px;
+}
+.section-foto{
+	margin-bottom: 50px;
+}
+.main-image{
+	max-width: 50%;
+	vertical-align: top;
+}
+.section-foto span{
+	display: inline-block;
+	padding: 10px;
+	background-color: #6ff601;
+	margin-left: -60px;
+}
+
+.lands-text{
+	max-height: 200px;
+	overflow: auto;
+}
+.ukrainian-text{
+	overflow: scroll;
+}
+
+
+
+
+.item-link{
+	font-family: "Circular", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 4px;
+	color: rgb(111, 248, 6);
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-decoration-color: rgb(255, 162, 0);
+}
+
+.contacts-link{
+   color: rgb(0, 195, 255);
+}
+
+.sublist-link{
+	font-family: "Lato",sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: black;
+}
+
+.main-section{
+	margin-bottom: 50px;
+	
+}
+
+.section-title{
+	text-align: center;
+}
+.section-subtitle{
+	margin-top: 30px;
+}
+.main-title{
+	font-weight: 700;
+	color: rgb(255, 64, 0);
+	font-size: 50px;
+}
+
+.main-section .section-subtitle{
+	color: rgba(255, 170, 0, 0.681);
+	font-family: "Lato", sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 3px;
+	word-spacing: 10px;
+	
+}
+
+.main-section .section-subtitle ~ .section-subtitle{
+	color: rgb(51, 255, 0);
+	font-weight: 700;
+}
+
+.subtitle-text{
+	color: rgb(158, 55, 79);
+	font-weight: 300;
+	font-style: oblique;
+	text-shadow: 3px 2px 10px rgb(250, 3, 3);
+}
+
+.sectin-text{
+	background-color: aquamarine;
+	margin-bottom: 50px;
+}
+.text{
+	padding: 30px 20px;
+}
+
+.text a{
+	color: rgb(255, 0, 0);
+	font-weight: 500;
+	font-size: 15px;
+	text-decoration: underline;
+	text-decoration-style: double;
+	text-decoration-thickness: 3px;
+	text-underline-offset: 10px;
+	text-decoration-color: #6ff601;
+	letter-spacing: 2px;
+}
+
+mark{
+	color: #f601d9;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-decoration-style: wavy;
+	text-decoration-color: #f60101ee;
+	text-decoration-line: line-through;
+}
+
+span{
+	color: blueviolet;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-color: #f601d9;
+	text-shadow: 2px 2px 5px red;
+}
+
+.advantages{
+	font-family: "CircularStd", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #231F8B;
+	padding: 112px 0;
+	margin-bottom: 50px;
+	
+}
+
+.advantages-container{
+   max-width: 1050px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+ }
+
+.text-wrapper{
+	margin-bottom: 70px;
+	max-width: 765px;
+}
+.advantages-subtitle{
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.71;
+	letter-spacing: 0.2px;
+	color: #5A54F2;
+	margin-bottom: 10px;
+
+}
+	
+.advantages-title{
+	font-size: 36px;
+	margin-bottom: 10px;
+	line-height: 1.2;
+}
+.advantages-text p{
+	font-weight: 500;
+	line-height: 1.42;
+	letter-spacing: 0.2px;
+}
+
+.advantages-cards{
+   margin: 0 -20px;
+	font-size: 0;
+}
+.card-wrapper{
+	width: 25%;
+	display: inline-block;
+	padding: 0 20px;
+}
+.risk-wrapper{
+vertical-align: top;
+}
+.advantages-compliance{
+padding-top: 48px;
+}
+.sox-wrapper{
+vertical-align: top;
+}
+.advantages-internal{
+	padding-top: 48px;
+}
+
+.footer-wrap{
+	background-color: #a8f966;
+	padding: 30px 20px;
+}
+.footer-sublist{
+	text-align: right;
+	margin-top: -85px;
+}
+.copyright-text{
+	color: rgb(255, 0, 0);
+	text-align: center;
+}
+
+
+
+
