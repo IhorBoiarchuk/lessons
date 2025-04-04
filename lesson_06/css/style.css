@@ -1,0 +1,250 @@
+/* @import url(fonts.css); */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,700&display=swap");
+
+
+@import url("reset.css");
+
+
+
+
+body{
+	font-family: "Arial", sans-serif ;
+	background-color: rgb(232, 229, 229);
+	color: white;
+}
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+}
+/* ====================================================================================== */
+.header{
+	margin-bottom: 50px;
+}
+.header-content{
+	min-height: 100px;
+	background-color: rgb(147, 43, 226);
+	padding: 10px;
+	font-size: 50px;
+	line-height: 1.5;
+	letter-spacing: 5px;
+	text-align: center;
+
+}
+/* =========================================================================================== */
+
+.ecobazar{
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #808080;
+	margin-bottom: 50px;
+	background-color: white;
+}
+.ecobazar-container{
+	max-width: 668px;
+	width: 100%;
+	margin: 0 auto;
+   padding: 0 10px;
+}
+
+.commodo{
+	margin-bottom: 20px;
+}
+.commodo > p{
+	margin-bottom: 30px;
+}
+.commodo > p + p{
+	margin-bottom: 0;
+}
+.feature{
+	margin-bottom: 20px;
+}
+.feature > ul > li{
+	margin-bottom: 14px;
+}
+.feature > ul > li > p{
+	padding-left: 27px;
+	background: url(../img/check.svg) 0 0 / 21px no-repeat;
+	min-height: 21px;
+}
+.last-item{
+	margin-bottom: 0;
+}
+
+/* ====================================================================================== */
+
+.hydra-about {
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	background-color: #302C42;
+	margin-bottom: 50px;
+	line-height: 1.2;
+}
+
+.hydra-container {
+	max-width: 1292px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 100px 10px;
+	background: url(../img/group.svg) 10% 45% no-repeat;
+}
+
+.hydra-foto{
+	max-width: 524px;
+	width: 100%;
+	vertical-align: middle;
+	margin-right: 108px;
+	border-radius: 19% 19% 19% 45% / 18% 18% 18% 43.3%;
+	background: #A3A3A3;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.hydra-text {
+	display: inline-block;
+	vertical-align: middle;
+   max-width: 630px;
+}
+
+.hydra-text h1 {
+	max-width: 192px;
+	width: 100%;
+	font-size: 36px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.hydra-text > h1 > mark{
+	display: inline-block;
+   font-weight: 700;
+   background-color: transparent;
+   color: white;
+   margin-bottom: 5px;
+}
+.hydra-text > h1{
+	margin-bottom: 42px;
+}
+.hydra-text > p{
+	font-weight: 400;
+	margin-bottom: 28px;
+}
+.hydra-button{
+	color: #343045;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 40px;
+	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+	padding: 17px 47px 16px 39px;
+}
+
+/* ======================================================================== */
+
+.rectangle {
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	background-color: #302C42;
+	margin-bottom: 50px;
+	line-height: 1.2;
+	font-size: 14px;
+	padding: 50px 0;
+}
+
+.rectangle-container {
+	max-width: 1302px;
+	margin: 0 auto;
+	padding: 0 15px;
+	overflow: hidden;
+}
+
+.rectangle-list {
+	border-radius: 7.1% 7.1% 7.1% 7.1% / 53.6% 53.6% 53.6% 53.6%;
+	background: radial-gradient(2900.76% 50.13% at 50% 53.89%,
+			      rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+	box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+	padding: 26px 11px;
+	font-size: 0;
+	text-align: center;
+}
+
+.rectangle-item {
+	display: inline-block;
+	/* min-height: 116px; */
+	vertical-align: top;
+}
+.rectangle-link{
+	display: block;
+	min-height: 116px;
+}
+
+.rectangle-title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.rectangle-text{
+	font-size: 14px;
+}
+
+
+.location{
+	background: url(../img/location.svg) 0 center / 70px no-repeat;
+	min-height: 70px;
+	padding: 30px 5px 30px 70px ;
+	border-right: 1px solid rgba(192, 183, 232, 0.33);
+	text-align: left;
+}
+.phone{
+	background: url(../img/phone.svg) 0 center / 59px no-repeat;
+	min-height: 70px;
+	padding: 30px 5px 30px 70px;
+	border-right: 1px solid rgba(192, 183, 232, 0.33);
+	text-align: left;
+}
+.mail{
+	background: url(../img/mail.svg) 0 center / 65px no-repeat;
+	min-height: 70px;
+	padding: 30px 5px 30px 70px;
+	text-align: left;
+}
+.location-item{
+	/* width: 35.2%; */
+	padding-left: 35px;
+	padding-right: 5px;
+	/* border-right: 1px solid rgba(192, 183, 232, 0.33); */
+	max-width: 440px;
+	width: 100%;
+}
+.phone-item{
+	/* width: 29.6%; */
+	padding-left: 25px;
+	padding-right: 5px;
+	/* border-right: 1px solid rgba(192, 183, 232, 0.33); */
+	max-width: 370px;
+	width: 100%;
+}
+.mail-item{
+   /* width: 35.2%; */
+	padding-left: 25px;
+	padding-right: 25px;
+	max-width: 440px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* ========================================================================================== */
+.footer-content{
+	min-height: 100px;
+	background-color: rgb(87, 247, 6);
+	padding: 10px;
+	font-size: 50px;
+	line-height: 1.5;
+	letter-spacing: 5px;
+	text-align: center;
+}
