@@ -47,6 +47,14 @@ body{
 	margin: 0 auto;
    padding: 0 10px;
 }
+.section-title > h1{
+	color: #211E2E;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 35px;
+	background: linear-gradient(90deg in oklab, blue, red);
+	margin-bottom: 50px;
+}
 
 .commodo{
 	margin-bottom: 20px;
@@ -104,23 +112,24 @@ body{
 	display: inline-block;
 	vertical-align: middle;
    max-width: 630px;
+	padding: 5px;
 }
 
-.hydra-text h1 {
+.hydra-text h2 {
 	max-width: 192px;
 	width: 100%;
 	font-size: 36px;
 	font-weight: 300;
 	text-transform: uppercase;
 }
-.hydra-text > h1 > mark{
+.hydra-text > h2 > mark{
 	display: inline-block;
    font-weight: 700;
    background-color: transparent;
    color: white;
    margin-bottom: 5px;
 }
-.hydra-text > h1{
+.hydra-text > h2{
 	margin-bottom: 42px;
 }
 .hydra-text > p{
