@@ -52,7 +52,7 @@ body{
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 35px;
-	background: linear-gradient(90deg in oklab, blue, red);
+	background: linear-gradient(blue, red);
 	margin-bottom: 50px;
 }
 
