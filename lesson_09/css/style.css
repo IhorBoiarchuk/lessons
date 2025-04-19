@@ -189,7 +189,7 @@ width: 100%;
 .product-card:hover .info__title{
 	color: #2C742F;
 }
-.product-card:hover .info__basket{
+.product-card:hover .product-card__basket{
 	background: url(../img/basket-hover.svg) 0 0 / 40px 40px no-repeat;
 }
 
@@ -279,7 +279,7 @@ width: 100%;
 .product-cards__items > :first-child .price__regular {
 	display: inline-block;
 }
-.info__basket{
+.product-card__basket{
 	width: 40px;
 	height: 40px;
    background: url(../img/basket.svg) 0 0/ 40px 40px no-repeat;
