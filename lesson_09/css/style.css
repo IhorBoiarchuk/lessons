@@ -91,6 +91,7 @@ body{
 .info-card {
 	padding: 40px 0;
 	text-align: center;
+width: 100%;
 }
 .info-card *{
 	margin-bottom: 16px;
@@ -125,13 +126,11 @@ body{
 .ecobazar__products {
 	margin-bottom: 56px;
 }
-
-
-
 .products__container {
 	max-width: 1320px;
-   margin: 0 auto;
+	margin: 0 auto;
 }
+
 .products__wrapper {
 	
 	background: url(../img/background-products.svg) 0 bottom / 144px 434px  no-repeat;
@@ -190,61 +189,82 @@ body{
 .product-card:hover .info__title{
 	color: #2C742F;
 }
-.product-card:hover .info{
-	background: url(../img/basket-hover.svg) 251px center / 40px 40px no-repeat;
+.product-card:hover .info__basket{
+	background: url(../img/basket-hover.svg) 0 0 / 40px 40px no-repeat;
 }
-/* .product-card:hover .product-card__image::before,
-.product-card:hover .product-card__image::after{
-	display: inline-block;
-} */
 
+.group-card {
+   width: 40px;
+   height: 86px;
+	display: inline-block;
+	margin-top: 20px;
+	vertical-align: top;
+	display: none;
+}
+.group-card *:not(:last-child){
+	margin-bottom: 6px;
+}
+
+.group-card__view {
+   width: 40px;
+   height: 40px;
+	background: url(../img/wishlist.svg) 0 0 / 40px 40px no-repeat;
+}
+
+.group-card__wishlist {
+   width: 40px;
+   height: 40px;
+	background: url(../img/view.svg) center / 40px 40px no-repeat;
+}
+
+.product-cards__items> :first-child .group-card {
+	display: inline-block;
+}
 .sale {
 	display: inline-block;
 	color: #fff;
 	padding: 3px 8px;
 	border-radius: 4px;
 	background: #EA4B48;
-	margin: 11px 0 0 11px;
 	display: none;
 }
+.product-card__sale{
+	margin: 11px 162px 0 11px;
+}
 
-.sale__discount span:not(:last-child) {
+.sale__items > *:not(:last-child) {
 	margin-right: 4px;
 }
+.product-cards__items > :first-child .sale{
+	display: inline-block;
+}
 
-.product-card__image {
-	padding: 5px;
-}
-.product-card__image::before{
-	content: "";
-	width: 40px;
-	height: 40px;
-	background: url(../img/wishlist.svg);
-	display: none;
-}
-.product-card__image::after{
-	content: "";
-	width: 40px;
-	height: 40px;
-	background: url(../img/view.svg);
-	display: none;
-}
-.product-card__image img{
+.product-card__foto{
 	max-width: 302px;
+}
+.product-card__inner {
+	padding: 16px;
+}
+.product-card__info{
+	margin-right: 105px;
 }
 
 .info {
-	padding: 16px;
-	background: url(../img/basket.svg) 251px center / 40px 40px no-repeat;
+   display: inline-block;
+	vertical-align: middle;
 }
 
 .info__title {
 	color: #4D4D4D;
 }
 
-.info__text {
+.price {
 	font-size: 16px;
 	font-weight: 500;
+}
+
+.price .price__regular{
+	display: none;
 }
 .info__text span{
 	display: inline-block;
@@ -256,10 +276,24 @@ body{
 	color: #999;
 	text-decoration: line-through;
 }
+.product-cards__items > :first-child .price__regular {
+	display: inline-block;
+}
+.info__basket{
+	width: 40px;
+	height: 40px;
+   background: url(../img/basket.svg) 0 0/ 40px 40px no-repeat;
+	vertical-align: middle;
+}
+
+	
 
 /* ============================================================================================= */
 
-
+.categories__container {
+	max-width: 1320px;
+	margin: 0 auto;
+}
 .categories__wrapper {
 	background: url(../img/background-categories.svg) 1765px 277px no-repeat,
 	linear-gradient(180deg, #F2F5F3 20.01%, #FFF 100%);
@@ -267,23 +301,17 @@ body{
 	padding: 80px 0;
 }
 
-.categories__container {
-	max-width: 1320px;
-	margin: 0 auto;
-}
-.categories__container::before{
+.categories__inner::before{
 	content: "";
 	width: 45px;
 	height: 45px;
 	background: url(../img/arrow-next.svg);
-   display: none;
 }
-.categories__container::after {
+.categories__inner::after {
 	content: "";
 	width: 45px;
 	height: 45px;
 	background: url(../img/arrow-prev.svg);
-	display: none;
 }
 
 .categories__header {
@@ -311,13 +339,15 @@ body{
 	text-align: center;
 	border-radius: 6px;
 	background-color: #fff;
+	border: 1px solid transparent;
+	width: 100%;
 }
 .departments-card *{
 	margin-bottom: 6px;
 }
 .departments-card:hover{
 	box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
-	border: 1px solid var(--Branding-Success-Dark, #2C742F);
+	border: 1px solid #2C742F;
 	cursor: pointer;
 }
 .departments-card:hover .departments-card__title{
@@ -351,7 +381,6 @@ body{
 	            url(../img/choose-vector-2.svg) 0 24px no-repeat,
 					url(../img/choose-vector-3.svg) 1744px 105px no-repeat;
 }
-
 .choose__container {
 	max-width: 1320px;
 	margin: 0 auto;
