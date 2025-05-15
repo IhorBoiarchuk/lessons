@@ -37,7 +37,6 @@ body{
 	line-height: 1.5;
 	text-align: center;
 	padding: 25px 0;
-	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
 	height: 1px;
 	overflow: hidden;
@@ -123,9 +122,6 @@ body{
 	gap: 30px;
 
 }
-
-
-
 .information {
 	flex-basis: 518px;
 	padding: 98px 0 65px;
@@ -157,6 +153,8 @@ body{
 }
 .information__item::before{
 	content: "";
+	flex-shrink: 0;
+	align-self: flex-start;
 	width: 29px;
 	height: 29px;
 	background: url(../img/arrow.svg) 0 0 / 29px 29px no-repeat;
@@ -172,9 +170,6 @@ body{
 	background-color: #412672;
 }
 
-.services__container {
-}
-
 .services__title {
 	font-size: 24px;
 	margin: 0 0 30px;
@@ -186,6 +181,7 @@ body{
 	display: flex;
 	justify-content: space-between;
    align-items: center;
+	flex-wrap: wrap;
 	gap: 30px;
 }
 
