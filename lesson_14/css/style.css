@@ -387,7 +387,7 @@ body{
 	background-color: #00B207;
 	width: 100%;
 	border-radius: 43px;
-	transform: background-color 0.5s;
+	transition: background-color 0.5s;
 }
 .button:hover{
    background-color: #2C742F;
