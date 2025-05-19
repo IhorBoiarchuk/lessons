@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>LESSON 14</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__content">
+				HEADER
+			</div>
+      </header>
+		<main class="main">
+			<h1 class="sr-only">
+				Lesson 14 (Form)
+			</h1>
+			<div class="information">
+				<div class="information__container">
+					<form class="information__form" action="#">
+						<div class="billing">
+							<div class="personal">
+				            <h2 class="personal__title personal__title--big">
+									Billing Information
+								</h2>
+								<div class="personal__information data">
+									<label class="data__lable">
+										<span class="data__title">First name</span>
+										<input class="data__input" type="text" name="form[]" placeholder="Your first name" required>
+									</label>
+									<label class="data__lable">
+										<span class="data__title">Last name</span>
+										<input class="data__input" type="text" name="form[]" placeholder="Your last name" required>
+									</label>
+									<label class="data__lable">
+										<span class="data__title">Company Name <span>(Optional)</span></span>
+										<input class="data__input" type="text" name="form[]" placeholder="Company name" required>
+									</label>
+									<label class="data__lable data__lable--long">
+										<span class="data__title">Street Address</span>
+										<input class="data__input" type="text" name="form[]" placeholder="Address" required>
+									</label>
+									<label class="data__lable data__lable--select"> 
+										<span class="data__title">Country / Region</span>
+									   <select class="data__select" name="form[]" required>
+										   <option value="1">Select</option>
+										   <option value="2">1</option>
+										   <option value="3">2</option>
+									   </select>
+									</label>
+									<label class="data__lable data__lable--select">
+										<span class="data__title">States</span>
+									   <select class="data__select" name="form[]" required>
+										   <option value="1">Selects</option>
+										   <option value="2">1</option>
+										   <option value="3">2</option>
+									   </select>
+									</label>
+									<label class="data__lable">
+										<span class="data__title">Zip Code</span>
+										<input class="data__input" type="text" name="form[]" placeholder="Zip Code" required>
+									</label>
+									<label class="data__lable data__lable--medium">
+										<span class="data__title">Email</span>
+										<input class="data__input" type="email" name="form[]" placeholder="Email Address" required>
+									</label>
+									<label class="data__lable data__lable--medium">
+										<span class="data__title">Phone</span>
+										<input class="data__input" type="tel" name="form[]" placeholder="Phone number" required>
+									</label>
+									<label class="data__checkbox checkbox-address">
+										<input class="checkbox-address__input" type="checkbox" name="form[]" required>
+										<span class="checkbox-address__title">Ship to a different address</span>
+									</label>
+								</div>
+							</div>
+							<div class="additional">
+								<h2 class="additional__title additional__title--big">
+									Additional Info
+								</h2>
+								<div class="additional__line">
+									<span class="additional__label">Order Notes <span>(Optional)</span></span>
+									<textarea class="additional__textarea" name="form[]" placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="order">
+							<div class="summery">
+								<h3 class="summery__title summery__title--small">
+									Order Summery
+								</h3>
+								<div class="product">
+									<ul class="product__list">
+										<li class="product__item">
+											<div class="product__info">
+												<div class="product__image">
+													<picture>
+														<source srcset="img/green-capsicum.webp" type="image/webp">
+														<img src="img/green-capsicum.png" alt="Green capsicum">
+													</picture>
+												</div>
+												<h3>
+													Green Capsicum
+												</h3>
+												<p>
+													x5
+												</p>
+											</div>
+											<div class="product__price">
+												<p>
+													$70.00
+												</p>
+											</div>
+										</li>
+										<li class="product__item">
+											<div class="product__info">
+												<div class="product__image">
+													<picture>
+														<source srcset="img/red-capsicum.webp" type="image/webp">
+														<img src="img/red-capsicum.png" alt="Red capsicum">
+													</picture>
+												</div>
+												<h3>
+													Red Capsicum
+												</h3>
+												<p>
+													x1
+												</p>
+											</div>
+											<div class="product__price">
+												<p>
+													$14.00
+												</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="price">
+									<div class="price__subtotal">
+										<p>Subtotal:</p>
+										<p>$84.00</p>
+									</div>
+									<div class="price__shipping">
+										<p>Shipping:</p>
+										<p>Free</p>
+									</div>
+									<div class="price__total">
+										<p>Total:</p>
+										<p>$84.00</p>
+									</div>
+								</div>
+                     </div>
+							<div class="payment">
+								<h3 class="payment__title payment__title--small">
+									Payment Method
+								</h3>
+								<div class="payment__method">
+									<div class="payment__line">
+										<label class="options">
+											<input class="options__input" type="radio" name="form[pay]" checked>
+											<span class="options__label">Cash on Delivery</span>
+										</label>
+									</div>
+									<div class="payment__line">
+										<label class="options">
+											<input class="options__input" type="radio" name="form[pay]">
+											<span class="options__label">Paypal</span>
+										</label>
+									</div>
+									<div class="payment__line">
+										<label class="options">
+											<input class="options__input" type="radio" name="form[pay]">
+											<span class="options__label">Amazon Pay</span>
+										</lable>
+									</div>
+								</div>
+							</div>
+							<button class="button">Place Order</button>
+						</div>
+					</form>
+				</div>
+			</div>
+      </main>
+	   <footer class="footer">
+		   <div class="footer__content">
+			   FOOTER
+		   </div>
+	   </footer>
+	</div>
+</body>
+</html>
