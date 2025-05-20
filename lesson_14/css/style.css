@@ -3,7 +3,16 @@
 @import url("reset.css");
 
 
-
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+} 
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+	appearance: none; 
+	-moz-appearance: textfield; 
+}
 
 body{
 	font-family: "Poppins", sans-serif ;
@@ -289,6 +298,7 @@ body{
 }
 .product__input::placeholder{
 	color: #1A1A1A;
+	transition: opacity 0.3s;
 }
 .product__input:focus::placeholder{
 	opacity: 0;
