@@ -29,19 +29,19 @@
 								<div class="personal__information data">
 									<label class="data__lable">
 										<span class="data__title">First name</span>
-										<input class="data__input" type="text" name="form[]" placeholder="Your first name" required>
+										<input class="data__input" type="text" name="form[]" placeholder="Your first name" required autocomplete="off">
 									</label>
 									<label class="data__lable">
 										<span class="data__title">Last name</span>
-										<input class="data__input" type="text" name="form[]" placeholder="Your last name" required>
+										<input class="data__input" type="text" name="form[]" placeholder="Your last name" required autocomplete="off">
 									</label>
 									<label class="data__lable">
 										<span class="data__title">Company Name <span>(Optional)</span></span>
-										<input class="data__input" type="text" name="form[]" placeholder="Company name" required>
+										<input class="data__input" type="text" name="form[]" placeholder="Company name" required autocomplete="off">
 									</label>
 									<label class="data__lable data__lable--long">
 										<span class="data__title">Street Address</span>
-										<input class="data__input" type="text" name="form[]" placeholder="Address" required>
+										<input class="data__input" type="text" name="form[]" placeholder="Address" required autocomplete="off">
 									</label>
 									<label class="data__lable data__lable--select"> 
 										<span class="data__title">Country / Region</span>
@@ -61,15 +61,15 @@
 									</label>
 									<label class="data__lable">
 										<span class="data__title">Zip Code</span>
-										<input class="data__input" type="text" name="form[]" placeholder="Zip Code" required>
+										<input class="data__input" type="namber" name="form[]" placeholder="Zip Code" required autocomplete="off">
 									</label>
 									<label class="data__lable data__lable--medium">
 										<span class="data__title">Email</span>
-										<input class="data__input" type="email" name="form[]" placeholder="Email Address" required>
+										<input class="data__input" type="email" name="form[]" placeholder="Email Address" required autocomplete="off">
 									</label>
 									<label class="data__lable data__lable--medium">
 										<span class="data__title">Phone</span>
-										<input class="data__input" type="tel" name="form[]" placeholder="Phone number" required>
+										<input class="data__input" type="tel" name="form[]" placeholder="Phone number" required autocomplete="off">
 									</label>
 									<label class="data__checkbox checkbox-address">
 										<input class="checkbox-address__input" type="checkbox" name="form[]" required>
@@ -96,18 +96,21 @@
 									<ul class="product__list">
 										<li class="product__item">
 											<div class="product__info">
-												<div class="product__image">
+												<a href="#" class="product__image">
 													<picture>
 														<source srcset="img/green-capsicum.webp" type="image/webp">
 														<img src="img/green-capsicum.png" alt="Green capsicum">
 													</picture>
-												</div>
-												<h3>
-													Green Capsicum
-												</h3>
-												<p>
-													x5
-												</p>
+												</a>
+												<a href="#" class="product__title">
+													<h3>
+														Green Capsicum
+													</h3>
+												</a>
+												<label class="product__label">
+													<span class="product__text">x</span>
+													<input class="product__input" type="namber" placeholder="5" name="form[]" autocomplete="off">
+												</label>
 											</div>
 											<div class="product__price">
 												<p>
@@ -117,18 +120,21 @@
 										</li>
 										<li class="product__item">
 											<div class="product__info">
-												<div class="product__image">
+												<a href="#" class="product__image">
 													<picture>
 														<source srcset="img/red-capsicum.webp" type="image/webp">
 														<img src="img/red-capsicum.png" alt="Red capsicum">
 													</picture>
-												</div>
-												<h3>
-													Red Capsicum
-												</h3>
-												<p>
-													x1
-												</p>
+												</a>
+												<a href="#" class="product__title">
+													<h3>
+														Red Capsicum
+													</h3>
+												</a>
+												<label class="product__label">
+													<span class="product__text">x</span>
+													<input class="product__input" type="namber" placeholder="1" name="form[]" autocomplete="off">
+												</label>
 											</div>
 											<div class="product__price">
 												<p>
@@ -158,24 +164,18 @@
 									Payment Method
 								</h3>
 								<div class="payment__method">
-									<div class="payment__line">
-										<label class="options">
-											<input class="options__input" type="radio" name="form[pay]" checked>
-											<span class="options__label">Cash on Delivery</span>
-										</label>
-									</div>
-									<div class="payment__line">
-										<label class="options">
-											<input class="options__input" type="radio" name="form[pay]">
-											<span class="options__label">Paypal</span>
-										</label>
-									</div>
-									<div class="payment__line">
-										<label class="options">
-											<input class="options__input" type="radio" name="form[pay]">
-											<span class="options__label">Amazon Pay</span>
-										</label>
-									</div>
+									<label class="options">
+										<input class="options__input" type="radio" name="form[pay]" value="1" checked>
+										<span class="options__label">Cash on Delivery</span>
+									</label>
+									<label class="options">
+										<input class="options__input" type="radio" name="form[pay]" value="2">
+										<span class="options__label">Paypal</span>
+									</label>
+									<label class="options">
+										<input class="options__input" type="radio" name="form[pay]" value="3">
+										<span class="options__label">Amazon Pay</span>
+									</label>
 								</div>
 							</div>
 							<button class="button">Place Order</button>
