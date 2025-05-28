@@ -205,7 +205,7 @@ width: 100%;
 	margin-bottom: 6px;
 }
 .information__price > p {
-	font-weight: 500px;
+	font-weight: 500;
 }
 .information__price > p > span{
 	color: #999;
@@ -484,7 +484,7 @@ width: 100%;
 	}
 
 	.card-news__link {
-		gap: 2;
+		gap: 2px;
 		font-size: 12px;
 	}
 }
