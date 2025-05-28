@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>LESSON 15</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__content">
+				HEADER
+			</div>
+      </header>
+		<main class="main">
+			<h1 class="sr-only">
+				Lesson 15 (Adaptive interface)
+			</h1>
+			<div class="products">
+				<div class="products__container">
+					<div class="products__header">
+						<h2 class="products__title title">
+							Featured Products
+						</h2>
+						<a href="#" class="products__link">
+							View All
+							<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 17 14" fill="none">
+								<path d="M16 7.00049H1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M9.94995 0.975586L16 6.99959L9.94995 13.0246" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</a>
+					</div>
+					<div class="products__body">
+						<ul class="products__list">
+							<li class="products__item">
+                        <div class="products__card card">
+                           <div class="card__sale visible">
+										<p>Sale <span>50%</span></p>
+									</div>
+									<div class="card__nav">
+										<button type="button" class="card__button">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+												<path d="M9.9996 17.5451C-6.66672 8.33332 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66668 26.6666 8.33332 9.9996 17.5451Z" stroke="currentColor" stroke-width="1.5"/>
+											</svg>
+										</button>
+										<button class="card__button">
+										   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+												<path d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</button>
+									</div>
+									<a href="#" class="card__image">
+										<picture>
+											<source srcset="img/green-apple.webp" type="image/webp">
+											<img src="img/green-apple.png" alt="Green apple">
+										</picture>
+									</a>
+									<div class="card__info">
+										<div class="information">
+											<h3 class="information__title">
+												<a href="#">Green Apple</a>
+											</h3>
+											<div class="information__price">
+												<p>$14.99 <span>$20.99</span></p>
+											</div>
+											<div class="information__rating">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gray.svg" alt="Star gray">
+											</div>
+										</div>
+										<button class="card__button card__button--basket">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+	                                 <path d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33334C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg>
+										</button>
+									</div>	
+								</div>
+							</li>
+							<li class="products__item">
+                        <div class="products__card card">
+                           <div class="card__sale">
+										<p>Sale <span>50%</span></p>
+									</div>
+									<div class="card__nav">
+										<button type="button" class="card__button">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+												<path d="M9.9996 17.5451C-6.66672 8.33332 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66668 26.6666 8.33332 9.9996 17.5451Z" stroke="currentColor" stroke-width="1.5"/>
+											</svg>
+										</button>
+										<button class="card__button">
+										   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+												<path d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</button>
+									</div>
+									<a href="#" class="card__image">
+										<picture>
+											<source srcset="img/indian-malta.webp" type="image/webp">
+											<img src="img/indian-malta.png" alt="Indian malta">
+										</picture>
+									</a>
+									<div class="card__info">
+										<div class="information">
+											<h3 class="information__title">
+												<a href="#">Fresh Indian Malta</a>
+											</h3>
+											<div class="information__price">
+												<p>$20.00 <span></span></p>
+											</div>
+											<div class="information__rating">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gray.svg" alt="Star gray">
+											</div>
+										</div>
+										<button class="card__button card__button--basket">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+	                                 <path d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33334C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg>
+										</button>
+									</div>	
+								</div>
+							</li>
+							<li class="products__item">
+                        <div class="products__card card">
+                           <div class="card__sale">
+										<p>Sale <span>50%</span></p>
+									</div>
+									<div class="card__nav">
+										<button type="button" class="card__button">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+												<path d="M9.9996 17.5451C-6.66672 8.33332 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66668 26.6666 8.33332 9.9996 17.5451Z" stroke="currentColor" stroke-width="1.5"/>
+											</svg>
+										</button>
+										<button class="card__button">
+										   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+												<path d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</button>
+									</div>
+									<a href="#" class="card__image">
+										<picture>
+											<source srcset="img/chinese-cabbage.webp" type="image/webp">
+											<img src="img/chinese-cabbage.png cabbage.png" alt="Chinese cabbage">
+										</picture>
+									</a>
+									<div class="card__info">
+										<div class="information">
+											<h3 class="information__title">
+												<a href="#">Chinese cabbage</a>
+											</h3>
+											<div class="information__price">
+												<p>$12.00 <span></span></p>
+											</div>
+											<div class="information__rating">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gray.svg" alt="Star gray">
+											</div>
+										</div>
+										<button class="card__button card__button--basket">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+	                                 <path d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33334C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg>
+										</button>
+									</div>	
+								</div>
+							</li>
+							<li class="products__item">
+                        <div class="products__card card">
+                           <div class="card__sale">
+										<p>Sale <span>50%</span></p>
+									</div>
+									<div class="card__nav">
+										<button type="button" class="card__button">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+												<path d="M9.9996 17.5451C-6.66672 8.33332 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66668 26.6666 8.33332 9.9996 17.5451Z" stroke="currentColor" stroke-width="1.5"/>
+											</svg>
+										</button>
+										<button class="card__button">
+										   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+												<path d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</button>
+									</div>
+									<a href="#" class="card__image">
+										<picture>
+											<source srcset="img/green-lettuce.webp" type="image/webp">
+											<img src="img/green-lettuce.png Lettuce.png" alt="Green Lettuce">
+										</picture>
+									</a>
+									<div class="card__info">
+										<div class="information">
+											<h3 class="information__title">
+												<a href="#">Green Lettuce</a>
+											</h3>
+											<div class="information__price">
+												<p>$9.00 <span></span></p>
+											</div>
+											<div class="information__rating">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gray.svg" alt="Star gray">
+											</div>
+										</div>
+										<button class="card__button card__button--basket">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+	                                 <path d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33334C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg>
+										</button>
+									</div>	
+								</div>
+							</li>
+							<li class="products__item">
+                        <div class="products__card card">
+                           <div class="card__sale">
+										<p>Sale <span>50%</span></p>
+									</div>
+									<div class="card__nav">
+										<button type="button" class="card__button">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+												<path d="M9.9996 17.5451C-6.66672 8.33332 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66668 26.6666 8.33332 9.9996 17.5451Z" stroke="currentColor" stroke-width="1.5"/>
+											</svg>
+										</button>
+										<button class="card__button">
+										   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+												<path d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</button>
+									</div>
+									<a href="#" class="card__image">
+										<picture>
+											<source srcset="img/eggplant.webp" type="image/webp">
+											<img src="img/eggplant.png" alt="Eggplant">
+										</picture>
+									</a>
+									<div class="card__info">
+										<div class="information">
+											<h3 class="information__title">
+												<a href="#">Eggplant</a>
+											</h3>
+											<div class="information__price">
+												<p>$34.00 <span></span></p>
+											</div>
+											<div class="information__rating">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gold.svg" alt="Star gold">
+												<img src="img/star-gray.svg" alt="Star gray">
+											</div>
+										</div>
+										<button class="card__button card__button--basket">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+	                                 <path d="M6.66667 8.83333H4.16667L2.5 18H17.5L15.8333 8.83333H13.3333M6.66667 8.83333V6.33334C6.66667 4.49239 8.15905 3 10 3V3C11.8409 3 13.3333 4.49238 13.3333 6.33333V8.83333M6.66667 8.83333H13.3333M6.66667 8.83333V11.3333M13.3333 8.83333V11.3333" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg>
+										</button>
+									</div>	
+								</div>
+							</li>
+				      </ul>
+					</div>
+				</div>
+			</div>
+			<div class="news">
+				<div class="news__container">
+					<h2 class="news__title title">Latest News</h2>
+					<ul class="news__list">
+						<li class="news__item">
+							<div class="news__card card-news">
+								<div class="card-news__image">
+									<picture>
+										<source srcset="img/latest-orange.webp" type="image/webp">
+										<img src="img/latest-orange.png" alt="Sliced ​​orange on a blue background">
+									</picture>
+									<div class="card-news__date">
+										18 <span>Nov</span>
+									</div>
+								</div>
+								<div class="card-news__information">
+                           <div class="card-news__navigation">
+										<a href="#" class="card-news__link card-news__link--food">Food</a>
+										<a href="#" class="card-news__link card-news__link--admin">By Admin</a>
+										<a href="#" class="card-news__link card-news__link--coments">65 Comments</a>
+									</div>
+									<p class="card-news__text">
+										Curabitur porttitor orci eget neque accumsan venenatis.
+									   Nunc fermentum.
+									</p>
+									<button class="card-news__button" type="button">
+										Read More
+										<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 17 14" fill="none">
+											<path d="M16 7.00049H1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M9.94995 0.975586L16 6.99959L9.94995 13.0246" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</button>
+								</div>
+							</div>
+						</li>
+						<li class="news__item">
+							<div class="news__card card-news">
+								<div class="card-news__image">
+									<picture>
+										<source srcset="img/latest-eggs.webp" type="image/webp">
+										<img src="img/latest-eggs.png" alt="Sandwich with vegetables and eggs on a plate">
+									</picture>
+									<div class="card-news__date">
+										29 <span>Jan</span>
+									</div>
+								</div>
+								<div class="card-news__information">
+                           <div class="card-news__navigation">
+										<a href="#" class="card-news__link card-news__link--food">Food</a>
+										<a href="#" class="card-news__link card-news__link--admin">By Admin</a>
+										<a href="#" class="card-news__link card-news__link--coments">65 Comments</a>
+									</div>
+									<p class="card-news__text">
+										Eget lobortis lorem lacinia. Vivamus pharetra semper.
+									</p>
+									<button class="card-news__button" type="button">
+										Read More
+										<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 17 14" fill="none">
+											<path d="M16 7.00049H1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M9.94995 0.975586L16 6.99959L9.94995 13.0246" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</button>
+								</div>
+							</div>
+						</li>
+						<li class="news__item">
+							<div class="news__card card-news">
+								<div class="card-news__image">
+									<picture>
+										<source srcset="img/latest-vegetables.webp" type="image/webp">
+										<img src="img/latest-vegetables.png" alt="Chopped vegetables on a plate">
+									</picture>
+									<div class="card-news__date">
+										21 <span>Feb</span>
+									</div>
+								</div>
+								<div class="card-news__information">
+                           <div class="card-news__navigation">
+										<a href="#" class="card-news__link card-news__link--food">Food</a>
+										<a href="#" class="card-news__link card-news__link--admin">By Admin</a>
+										<a href="#" class="card-news__link card-news__link--coments">65 Comments</a>
+									</div>
+									<p class="card-news__text">
+										Maecenas blandit risus elementum mauris malesuada.
+									</p>
+									<button class="card-news__button" type="button">
+										Read More
+										<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 17 14" fill="none">
+											<path d="M16 7.00049H1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M9.94995 0.975586L16 6.99959L9.94995 13.0246" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</button>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+      </main>
+	   <footer class="footer">
+		   <div class="footer__content">
+			   FOOTER
+		   </div>
+	   </footer>
+	</div>
+</body>
+</html>
