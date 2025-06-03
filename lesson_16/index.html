@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>LESSON 16</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a class="header__logo logo-header" href="#">
+					<img src="img/logo.svg" alt="Logo" class="logo-header__img">
+					<span class="logo-header__text">Education Pro</span>
+				</a>
+					<div class="nav">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a href="#" class="nav__link">About</a>
+							</li>
+							<li class="nav__item nav__item--arrow">
+								<a href="#" class="nav__link">Services</a>
+								<button class="nav__button">
+									<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 46 46" fill="none">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M37.3651 6.0057C37.7898 5.75023 38.2969 5.6692 38.7801 5.77963C39.2632 5.89006 39.6848 6.18335 39.9564 6.59795L41.8539 9.49212C42.1012 9.8702 42.2071 10.3235 42.1527 10.772C42.0984 11.2206 41.8873 11.6355 41.5568 11.9435L41.5511 11.9512L41.5242 11.9761L41.415 12.0777L40.9837 12.4898C38.5974 14.8043 36.2836 17.1924 34.0454 19.6505C29.8345 24.2811 24.8339 30.3416 21.4682 36.222C20.529 37.8626 18.2348 38.2153 16.874 36.7989L4.44438 23.8844C4.26626 23.6992 4.12717 23.4802 4.03539 23.2402C3.94362 23.0002 3.90102 22.7443 3.91014 22.4875C3.91926 22.2307 3.97991 21.9784 4.08848 21.7456C4.19704 21.5127 4.35132 21.3041 4.54213 21.132L8.2988 17.7434C8.62893 17.4457 9.05224 17.2721 9.49629 17.2522C9.94033 17.2322 10.3775 17.3673 10.733 17.6341L17.0752 22.3894C26.9825 12.6201 32.6002 8.87112 37.3651 6.0057ZM37.7675 10.253C33.3784 12.9977 27.9005 16.9786 18.6047 26.2725C18.2785 26.5988 17.8456 26.7964 17.3854 26.8291C16.9253 26.8619 16.4687 26.7275 16.0996 26.4508L9.69413 21.6476L8.58055 22.652L18.7715 33.2435C22.3096 27.3593 27.1799 21.502 31.2106 17.0706C33.3332 14.7389 35.5223 12.4686 37.7752 10.2626L37.7675 10.253Z" fill="#000000"/>
+									</svg>
+								</button>
+								<ul class="sub-menu">
+									<li class="sub-menu__item">
+										<a href="#" class="sub-menu__link">courses</a>
+									</li>
+									<li class="sub-menu__item">
+										<a href="#" class="sub-menu__link">treinings</a>
+									</li>
+									<li class="sub-menu__item">
+										<a href="#" class="sub-menu__link">seminars</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link">Quality Policy</a>
+							</li>
+							<li class="nav__item">
+								<form action="#" class="nav__action">
+									<select name="form[]" class="nav__select">
+										<option value="" selected disabled hidden>Languages</option>
+										<option value="uk">Uk</option>
+										<option value="eng">Eng</option>
+									</select>
+								</form>
+							</li>
+							<li class="nav__item nav__item--arrow">
+								<a href="#" class="nav__link">Contact</a>
+								<button class="nav__button">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 46" fill="none">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M37.3651 6.0057C37.7898 5.75023 38.2969 5.6692 38.7801 5.77963C39.2632 5.89006 39.6848 6.18335 39.9564 6.59795L41.8539 9.49212C42.1012 9.8702 42.2071 10.3235 42.1527 10.772C42.0984 11.2206 41.8873 11.6355 41.5568 11.9435L41.5511 11.9512L41.5242 11.9761L41.415 12.0777L40.9837 12.4898C38.5974 14.8043 36.2836 17.1924 34.0454 19.6505C29.8345 24.2811 24.8339 30.3416 21.4682 36.222C20.529 37.8626 18.2348 38.2153 16.874 36.7989L4.44438 23.8844C4.26626 23.6992 4.12717 23.4802 4.03539 23.2402C3.94362 23.0002 3.90102 22.7443 3.91014 22.4875C3.91926 22.2307 3.97991 21.9784 4.08848 21.7456C4.19704 21.5127 4.35132 21.3041 4.54213 21.132L8.2988 17.7434C8.62893 17.4457 9.05224 17.2721 9.49629 17.2522C9.94033 17.2322 10.3775 17.3673 10.733 17.6341L17.0752 22.3894C26.9825 12.6201 32.6002 8.87112 37.3651 6.0057ZM37.7675 10.253C33.3784 12.9977 27.9005 16.9786 18.6047 26.2725C18.2785 26.5988 17.8456 26.7964 17.3854 26.8291C16.9253 26.8619 16.4687 26.7275 16.0996 26.4508L9.69413 21.6476L8.58055 22.652L18.7715 33.2435C22.3096 27.3593 27.1799 21.502 31.2106 17.0706C33.3332 14.7389 35.5223 12.4686 37.7752 10.2626L37.7675 10.253Z" fill="#000000"/>
+									</svg>
+								</button>
+								<ul class="sub-menu sub-menu--phone">
+									<li class="sub-menu__item">
+										<a href="+380965453535" class="sub-menu__link">+38(096)-545-35-35</a>
+									</li>
+									<li class="sub-menu__item">
+										<a href="+380735453535" class="sub-menu__link">+38(073)-545-35-35</a>
+									</li>
+									<li class="sub-menu__item">
+										<a href="+380955453535" class="sub-menu__link">+38(095)-545-35-35</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				<a class="header__link" href="#">Get Quote</a>
+				<button class="header__icon-menu">
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="main">
+			<h1 class="sr-only">
+				Lesson 16 (Menu burger)
+			</h1>
+			<div class="information">
+				<div class="information__container">
+					<div class="information__text">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magni sed autem eligendi vel perferendis dolorem numquam eos, aut tempora vitae illum doloremque esse est odit animi. Enim, facere expedita.
+							Labore quam, sit earum voluptatibus consequuntur accusamus hic excepturi, quod accusantium mollitia libero sed tempore doloremque debitis, minus iure possimus odit. Aliquid odio ducimus accusamus quasi tempore molestias autem perspiciatis.
+							Dolorum, dolores assumenda aliquam eius debitis magnam placeat quidem sequi rem sunt ratione neque temporibus quasi laudantium vel libero quo ipsam. Ad magni fuga itaque tenetur quasi eaque, molestiae soluta.
+							Excepturi eos sapiente quae aliquid? Eligendi illum quia ea veritatis placeat molestias itaque nam deleniti quae amet magni expedita deserunt officia numquam consectetur animi illo eius, cupiditate, in, molestiae sit.
+							Omnis, inventore? Sit sunt perferendis officiis accusamus iure fuga nesciunt eveniet quasi cupiditate doloremque dolore id, obcaecati ipsam perspiciatis consequatur amet tempore aperiam voluptatem odio earum voluptates culpa repellendus! Distinctio.
+							Porro distinctio totam dolorem beatae corporis sunt voluptatum nesciunt minus culpa dolorum tempore deleniti neque, voluptate tempora laboriosam laudantium rem quia necessitatibus. Facilis velit quia adipisci voluptatum quo nesciunt tempore?
+							Fugit iure quae enim, minus vitae dolorem beatae alias molestias necessitatibus veniam, tempora deleniti consectetur ea? Id iusto maiores, maxime, aliquam doloremque facere possimus placeat enim expedita, quos fugit doloribus!
+							Debitis laboriosam nisi error consectetur doloremque rem nobis aliquid expedita inventore minus? Similique debitis distinctio quam ullam quisquam, ratione voluptates eligendi. Rem maiores temporibus doloremque repudiandae possimus totam velit odit?
+							Temporibus sint veniam numquam ipsam, aliquam autem quia labore impedit consequuntur veritatis error nihil earum officia adipisci voluptas vitae optio! Maiores eum illo voluptas modi optio? Quam deleniti odit vel!
+							Alias earum harum corrupti, inventore accusantium cupiditate non, neque at labore exercitationem amet corporis soluta ea nulla voluptatibus quae. Itaque voluptatibus assumenda quidem ab voluptas hic et quia ea aperiam.
+							Vel culpa officia optio iusto iste provident, praesentium ratione, sed quas fuga nisi qui. Dignissimos aliquam autem officia porro! Placeat, repudiandae id autem pariatur harum veritatis obcaecati sunt iure nihil?
+							Illum dicta impedit ipsum, hic ratione ipsa officiis dolorem doloribus at. Exercitationem officia sint odit quo soluta modi iusto est ex ea culpa, omnis pariatur eum, minima eius unde corrupti!
+							Hic ab, beatae nihil repellat dolor quia, eaque assumenda dolorem, impedit optio labore sunt incidunt officiis non soluta quibusdam animi rem porro quod! Dolores laborum nisi facilis dolorem, necessitatibus nobis!
+							Suscipit, maiores deleniti autem sit, veniam consequatur deserunt, a dicta nesciunt sequi blanditiis! In dolorum architecto est necessitatibus possimus. Eos, reprehenderit possimus. Dolores vel cumque eum ex fugiat beatae voluptas?
+							Quo aperiam eius placeat est possimus, soluta minus aliquam, asperiores aut laboriosam ea consequatur nam aliquid. Vero non sapiente facilis minus hic tempore doloremque eveniet, eos sint maiores, ab suscipit!
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magni sed autem eligendi vel perferendis dolorem numquam eos, aut tempora vitae illum doloremque esse est odit animi. Enim, facere expedita.
+							Labore quam, sit earum voluptatibus consequuntur accusamus hic excepturi, quod accusantium mollitia libero sed tempore doloremque debitis, minus iure possimus odit. Aliquid odio ducimus accusamus quasi tempore molestias autem perspiciatis.
+							Dolorum, dolores assumenda aliquam eius debitis magnam placeat quidem sequi rem sunt ratione neque temporibus quasi laudantium vel libero quo ipsam. Ad magni fuga itaque tenetur quasi eaque, molestiae soluta.
+							Excepturi eos sapiente quae aliquid? Eligendi illum quia ea veritatis placeat molestias itaque nam deleniti quae amet magni expedita deserunt officia numquam consectetur animi illo eius, cupiditate, in, molestiae sit.
+							Omnis, inventore? Sit sunt perferendis officiis accusamus iure fuga nesciunt eveniet quasi cupiditate doloremque dolore id, obcaecati ipsam perspiciatis consequatur amet tempore aperiam voluptatem odio earum voluptates culpa repellendus! Distinctio.
+							Porro distinctio totam dolorem beatae corporis sunt voluptatum nesciunt minus culpa dolorum tempore deleniti neque, voluptate tempora laboriosam laudantium rem quia necessitatibus. Facilis velit quia adipisci voluptatum quo nesciunt tempore?
+							Fugit iure quae enim, minus vitae dolorem beatae alias molestias necessitatibus veniam, tempora deleniti consectetur ea? Id iusto maiores, maxime, aliquam doloremque facere possimus placeat enim expedita, quos fugit doloribus!
+							Debitis laboriosam nisi error consectetur doloremque rem nobis aliquid expedita inventore minus? Similique debitis distinctio quam ullam quisquam, ratione voluptates eligendi. Rem maiores temporibus doloremque repudiandae possimus totam velit odit?
+							Temporibus sint veniam numquam ipsam, aliquam autem quia labore impedit consequuntur veritatis error nihil earum officia adipisci voluptas vitae optio! Maiores eum illo voluptas modi optio? Quam deleniti odit vel!
+							Alias earum harum corrupti, inventore accusantium cupiditate non, neque at labore exercitationem amet corporis soluta ea nulla voluptatibus quae. Itaque voluptatibus assumenda quidem ab voluptas hic et quia ea aperiam.
+							Vel culpa officia optio iusto iste provident, praesentium ratione, sed quas fuga nisi qui. Dignissimos aliquam autem officia porro! Placeat, repudiandae id autem pariatur harum veritatis obcaecati sunt iure nihil?
+							Illum dicta impedit ipsum, hic ratione ipsa officiis dolorem doloribus at. Exercitationem officia sint odit quo soluta modi iusto est ex ea culpa, omnis pariatur eum, minima eius unde corrupti!
+							Hic ab, beatae nihil repellat dolor quia, eaque assumenda dolorem, impedit optio labore sunt incidunt officiis non soluta quibusdam animi rem porro quod! Dolores laborum nisi facilis dolorem, necessitatibus nobis!
+							Suscipit, maiores deleniti autem sit, veniam consequatur deserunt, a dicta nesciunt sequi blanditiis! In dolorum architecto est necessitatibus possimus. Eos, reprehenderit possimus. Dolores vel cumque eum ex fugiat beatae voluptas?
+							Quo aperiam eius placeat est possimus, soluta minus aliquam, asperiores aut laboriosam ea consequatur nam aliquid. Vero non sapiente facilis minus hic tempore doloremque eveniet, eos sint maiores, ab suscipit!
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magni sed autem eligendi vel perferendis dolorem numquam eos, aut tempora vitae illum doloremque esse est odit animi. Enim, facere expedita.
+							Labore quam, sit earum voluptatibus consequuntur accusamus hic excepturi, quod accusantium mollitia libero sed tempore doloremque debitis, minus iure possimus odit. Aliquid odio ducimus accusamus quasi tempore molestias autem perspiciatis.
+							Dolorum, dolores assumenda aliquam eius debitis magnam placeat quidem sequi rem sunt ratione neque temporibus quasi laudantium vel libero quo ipsam. Ad magni fuga itaque tenetur quasi eaque, molestiae soluta.
+							Excepturi eos sapiente quae aliquid? Eligendi illum quia ea veritatis placeat molestias itaque nam deleniti quae amet magni expedita deserunt officia numquam consectetur animi illo eius, cupiditate, in, molestiae sit.
+							Omnis, inventore? Sit sunt perferendis officiis accusamus iure fuga nesciunt eveniet quasi cupiditate doloremque dolore id, obcaecati ipsam perspiciatis consequatur amet tempore aperiam voluptatem odio earum voluptates culpa repellendus! Distinctio.
+							Porro distinctio totam dolorem beatae corporis sunt voluptatum nesciunt minus culpa dolorum tempore deleniti neque, voluptate tempora laboriosam laudantium rem quia necessitatibus. Facilis velit quia adipisci voluptatum quo nesciunt tempore?
+							Fugit iure quae enim, minus vitae dolorem beatae alias molestias necessitatibus veniam, tempora deleniti consectetur ea? Id iusto maiores, maxime, aliquam doloremque facere possimus placeat enim expedita, quos fugit doloribus!
+							Debitis laboriosam nisi error consectetur doloremque rem nobis aliquid expedita inventore minus? Similique debitis distinctio quam ullam quisquam, ratione voluptates eligendi. Rem maiores temporibus doloremque repudiandae possimus totam velit odit?
+							Temporibus sint veniam numquam ipsam, aliquam autem quia labore impedit consequuntur veritatis error nihil earum officia adipisci voluptas vitae optio! Maiores eum illo voluptas modi optio? Quam deleniti odit vel!
+							Alias earum harum corrupti, inventore accusantium cupiditate non, neque at labore exercitationem amet corporis soluta ea nulla voluptatibus quae. Itaque voluptatibus assumenda quidem ab voluptas hic et quia ea aperiam.
+							Vel culpa officia optio iusto iste provident, praesentium ratione, sed quas fuga nisi qui. Dignissimos aliquam autem officia porro! Placeat, repudiandae id autem pariatur harum veritatis obcaecati sunt iure nihil?
+							Illum dicta impedit ipsum, hic ratione ipsa officiis dolorem doloribus at. Exercitationem officia sint odit quo soluta modi iusto est ex ea culpa, omnis pariatur eum, minima eius unde corrupti!
+							Hic ab, beatae nihil repellat dolor quia, eaque assumenda dolorem, impedit optio labore sunt incidunt officiis non soluta quibusdam animi rem porro quod! Dolores laborum nisi facilis dolorem, necessitatibus nobis!
+							Suscipit, maiores deleniti autem sit, veniam consequatur deserunt, a dicta nesciunt sequi blanditiis! In dolorum architecto est necessitatibus possimus. Eos, reprehenderit possimus. Dolores vel cumque eum ex fugiat beatae voluptas?
+							Quo aperiam eius placeat est possimus, soluta minus aliquam, asperiores aut laboriosam ea consequatur nam aliquid. Vero non sapiente facilis minus hic tempore doloremque eveniet, eos sint maiores, ab suscipit!
+						</p>
+					</div>
+				</div>
+			</div>
+      </main>
+		<footer class="footer">
+			<div class="footer__content">
+				Footer
+			</div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>				
