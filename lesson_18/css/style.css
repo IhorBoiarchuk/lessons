@@ -1,0 +1,66 @@
+/* @import url("fonts.css")*/
+
+@import url("reset.css");
+
+body{
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #1a1a1a;
+}
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main{
+	flex-grow: 1;
+}
+/* ====================================================================================== */
+
+.header__content{
+	min-height: 100px;
+	background-color: rgb(147, 43, 226);
+	padding: 10px;
+	font-size: 50px;
+	line-height: 1.5;
+	letter-spacing: 5px;
+	text-align: center;
+}
+/* =========================================================================================== */
+   /* .sr-only{
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 1.5;
+	text-align: center;
+	padding: 25px 0;
+	clip-path: inset(50%);
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+} */
+/* ====================================================================== */
+
+/* ======================================================================= */
+/* @media (any-hover: hover), (pointer: fine){} */
+	
+
+
+
+/* @media (any-hover: none), (pointer: coarse){} */
+
+
+/* ======================================================================= */
+.footer__content{
+	min-height: 100px;
+	background-color: rgb(87, 247, 6);
+	padding: 10px;
+	font-size: 50px;
+	line-height: 1.5;
+	letter-spacing: 5px;
+	text-align: center;
+}
+

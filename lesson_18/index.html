@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>LESSON 18</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__content">
+				HEADER
+			</div>
+      </header>
+		<main class="main">
+			<!-- <h1 class="sr-only">
+				Lesson 18 (Semantics)
+			</h1> -->
+		   <div class="blog">
+				<div class="blog__container">
+					<article class="blog__article article">
+                  <div class="article__image">
+							<picture>
+								<source srcset="img/main-image.webp" type="image/webp">
+								<img src="img/main-image.jpg" alt="Oranges">
+							</picture>
+						</div>
+						<div class="article__info info-article">
+                     <ul class="info-article__list">
+								<li class="info-article__item">
+									<a href="#">
+										<img src="img/food.svg" alt="Category tag">
+									   Food
+									</a>
+								</li>
+								<li class="info-article__item">
+									<a href="#">
+										<img src="img/admin.svg" alt="Little man">
+									   By <span>Admin</span>
+									</a>
+								</li>
+								<li class="info-article__item">
+									<a href="#">
+										<img src="img/comments.svg" alt="Text box">
+									   65 Comments
+									</a>
+								</li>
+							</ul>
+						</div>
+						<h1 class="article__title">
+							Maecenas tempor urna sed quam mollis, a placerat dui fringill Suspendisse.
+						</h1>
+						<div class="article__author">
+							<div class="owner">
+								<div class="owner__image">
+									<picture>
+										<source srcset="img/cameron-williamson.webp" type="image/webp">
+										<img src="img/cameron-williamson.jpg" alt="Portrait of a woman">
+									</picture>
+								</div>
+							   <div class="owner__information">
+								   <h3 class="owner__title">Cameron Williamson</h3>
+								   <time datetime="2021-04-04">4 April, 2021 <span>6 min read</span></time>
+							   </div>
+						   </div>
+							<div class="social">
+								<ul class="social__list">
+									<li class="social__item">
+										<a href="#" class="social__link" aria-label="Go to Facebook" target="_blank" rel="noopener noreferrer">
+											<svg aria-hidden="true" focusable="false" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="20" cy="20.5" r="20" fill=""/>
+												<g clip-path="url(#clip0_53_1059)">
+												<path d="M22.9981 14.4888H24.6414V11.6268C24.3579 11.5878 23.3829 11.5 22.2474 11.5C19.8781 11.5 18.2551 12.9903 18.2551 15.7293V18.25H15.6406V21.4495H18.2551V29.5H21.4606V21.4503H23.9694L24.3676 18.2508H21.4599V16.0465C21.4606 15.1218 21.7096 14.4888 22.9981 14.4888Z" fill="black"/>
+												</g>
+												<defs>
+												<clipPath id="clip0_53_1059">
+												<rect width="18" height="18" fill="white" transform="translate(11 11.5)"/>
+												</clipPath>
+												</defs>
+											</svg>
+										</a>
+									</li>
+									<li class="social__item">
+										<a href="#" class="social__link" aria-label="Go to Twitter" target="_blank" rel="noopener noreferrer">
+											<svg aria-hidden="true" focusable="false" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="20" cy="20.5" r="20" fill=""/>
+												<path d="M29 14.9189C28.3306 15.2125 27.6174 15.4071 26.8737 15.5016C27.6388 15.0449 28.2226 14.3271 28.4971 13.462C27.7839 13.8873 26.9964 14.1876 26.1571 14.3553C25.4799 13.6341 24.5146 13.1875 23.4616 13.1875C21.4186 13.1875 19.7739 14.8458 19.7739 16.8786C19.7739 17.1711 19.7986 17.4524 19.8594 17.7201C16.7915 17.5705 14.0769 16.1001 12.2533 13.8603C11.9349 14.4126 11.7481 15.0449 11.7481 15.7255C11.7481 17.0035 12.4062 18.1364 13.3872 18.7923C12.7944 18.781 12.2127 18.6089 11.72 18.3378C11.72 18.349 11.72 18.3636 11.72 18.3783C11.72 20.1715 12.9991 21.661 14.6765 22.0041C14.3761 22.0863 14.0487 22.1256 13.709 22.1256C13.4727 22.1256 13.2342 22.1121 13.0104 22.0626C13.4885 23.524 14.8453 24.5984 16.4585 24.6333C15.203 25.6154 13.6089 26.2071 11.8831 26.2071C11.5805 26.2071 11.2902 26.1936 11 26.1565C12.6346 27.2106 14.5719 27.8125 16.661 27.8125C23.4515 27.8125 27.164 22.1875 27.164 17.3118C27.164 17.1486 27.1584 16.9911 27.1505 16.8348C27.8829 16.315 28.4982 15.6659 29 14.9189Z" fill="black"/>
+											</svg>
+										</a>
+									</li>
+									<li class="social__item">
+										<a href="#" class="social__link" aria-label="Go to Pinterest" target="_blank" rel="noopener noreferrer">
+											<svg aria-hidden="true" focusable="false" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="20" cy="20.5" r="20" fill=""/>
+												<g clip-path="url(#clip0_53_1057)">
+												<path d="M20.2445 11.5C15.3111 11.5 12.6875 14.6614 12.6875 18.1086C12.6875 19.7073 13.5808 21.7008 15.0107 22.3331C15.2279 22.431 15.346 22.3894 15.3944 22.188C15.4371 22.035 15.625 21.2981 15.7161 20.9504C15.7443 20.8391 15.7296 20.7423 15.6396 20.6377C15.1649 20.0887 14.788 19.0885 14.788 18.1502C14.788 15.746 16.6994 13.4115 19.952 13.4115C22.7646 13.4115 24.7323 15.2386 24.7323 17.8521C24.7323 20.8053 23.1696 22.8484 21.1389 22.8484C20.015 22.8484 19.1779 21.9664 19.4434 20.8751C19.7641 19.5756 20.393 18.1783 20.393 17.2411C20.393 16.4007 19.9182 15.7055 18.9484 15.7055C17.8042 15.7055 16.8761 16.8384 16.8761 18.3594C16.8761 19.3259 17.2181 19.9784 17.2181 19.9784C17.2181 19.9784 16.0863 24.5506 15.8759 25.4045C15.5204 26.8502 15.9243 29.1914 15.9591 29.3928C15.9805 29.5042 16.1054 29.5391 16.1752 29.4479C16.2865 29.3017 17.6546 27.3497 18.0382 25.9389C18.1777 25.4248 18.7504 23.34 18.7504 23.34C19.1273 24.0207 20.2152 24.5911 21.374 24.5911C24.8212 24.5911 27.312 21.5613 27.312 17.8014C27.2997 14.1968 24.2148 11.5 20.2445 11.5Z" fill="black"/>
+												</g>
+												<defs>
+												<clipPath id="clip0_53_1057">
+												<rect width="18" height="18" fill="white" transform="translate(11 11.5)"/>
+												</clipPath>
+												</defs>
+											</svg>
+										</a>
+									</li>
+									<li class="social__item">
+										<a href="#" class="social__link" aria-label="Go to Instagram" target="_blank" rel="noopener noreferrer">
+											<svg aria-hidden="true" focusable="false" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="20" cy="20.5" r="20" fill=""/>
+												<g clip-path="url(#clip0_53_1056)">
+												<path d="M27.9845 17.2041C27.9471 16.3539 27.8096 15.7695 27.6126 15.263C27.4095 14.7254 27.0969 14.2441 26.6874 13.844C26.2873 13.4377 25.8028 13.122 25.2715 12.922C24.7621 12.725 24.1807 12.5876 23.3306 12.5501C22.4741 12.5094 22.2022 12.5 20.0299 12.5C17.8576 12.5 17.5857 12.5094 16.7324 12.5469C15.8822 12.5844 15.2978 12.722 14.7914 12.9188C14.2537 13.122 13.7724 13.4345 13.3723 13.844C12.966 14.2441 12.6504 14.7286 12.4503 15.26C12.2533 15.7695 12.1159 16.3507 12.0784 17.2009C12.0377 18.0574 12.0283 18.3293 12.0283 20.5016C12.0283 22.6739 12.0377 22.9458 12.0752 23.7991C12.1127 24.6492 12.2503 25.2337 12.4472 25.7402C12.6504 26.2777 12.966 26.759 13.3723 27.1591C13.7724 27.5655 14.2569 27.8812 14.7883 28.0812C15.2978 28.2781 15.879 28.4156 16.7293 28.4531C17.5825 28.4907 17.8545 28.5 20.0268 28.5C22.1991 28.5 22.471 28.4907 23.3243 28.4531C24.1745 28.4156 24.7589 28.2781 25.2653 28.0812C26.3405 27.6655 27.1907 26.8153 27.6064 25.7402C27.8032 25.2307 27.9408 24.6492 27.9783 23.7991C28.0158 22.9458 28.0252 22.6739 28.0252 20.5016C28.0252 18.3293 28.022 18.0574 27.9845 17.2041ZM26.5437 23.7366C26.5093 24.518 26.378 24.9399 26.2686 25.2213C25.9998 25.9183 25.4466 26.4715 24.7495 26.7403C24.4682 26.8497 24.0432 26.981 23.2649 27.0153C22.421 27.0529 22.1679 27.0622 20.033 27.0622C17.8982 27.0622 17.642 27.0529 16.8011 27.0153C16.0197 26.981 15.5977 26.8497 15.3164 26.7403C14.9696 26.6121 14.6538 26.409 14.3976 26.1433C14.1319 25.8839 13.9287 25.5713 13.8005 25.2244C13.6911 24.9431 13.5599 24.518 13.5256 23.7398C13.488 22.8958 13.4787 22.6426 13.4787 20.5078C13.4787 18.373 13.488 18.1167 13.5256 17.276C13.5599 16.4946 13.6911 16.0726 13.8005 15.7913C13.9287 15.4443 14.1319 15.1287 14.4007 14.8723C14.6601 14.6066 14.9726 14.4035 15.3196 14.2754C15.6009 14.166 16.026 14.0347 16.8043 14.0003C17.6482 13.9628 17.9014 13.9534 20.0361 13.9534C22.1741 13.9534 22.4272 13.9628 23.268 14.0003C24.0494 14.0347 24.4714 14.166 24.7527 14.2754C25.0996 14.4035 25.4153 14.6066 25.6716 14.8723C25.9373 15.1318 26.1404 15.4443 26.2686 15.7913C26.378 16.0726 26.5093 16.4976 26.5437 17.276C26.5812 18.1199 26.5906 18.373 26.5906 20.5078C26.5906 22.6426 26.5812 22.8927 26.5437 23.7366Z" fill="black"/>
+												<path d="M20.0301 16.3914C17.761 16.3914 15.9199 18.2323 15.9199 20.5016C15.9199 22.7708 17.761 24.6117 20.0301 24.6117C22.2993 24.6117 24.1403 22.7708 24.1403 20.5016C24.1403 18.2323 22.2993 16.3914 20.0301 16.3914ZM20.0301 23.1677C18.558 23.1677 17.3639 21.9738 17.3639 20.5016C17.3639 19.0293 18.558 17.8354 20.0301 17.8354C21.5023 17.8354 22.6963 19.0293 22.6963 20.5016C22.6963 21.9738 21.5023 23.1677 20.0301 23.1677Z" fill="black"/>
+												<path d="M25.262 16.2289C25.262 16.7588 24.8323 17.1884 24.3023 17.1884C23.7724 17.1884 23.3428 16.7588 23.3428 16.2289C23.3428 15.6989 23.7724 15.2693 24.3023 15.2693C24.8323 15.2693 25.262 15.6989 25.262 16.2289Z" fill="black"/>
+												</g>
+												<defs>
+												<clipPath id="clip0_53_1056">
+												<rect width="16" height="16" fill="white" transform="translate(12 12.5)"/>
+												</clipPath>
+												</defs>
+											</svg>
+										</a>
+									</li>
+									<li class="social__item">
+										<a href="#" class="social__link" aria-label="Go to Link" target="_blank" rel="noopener noreferrer">
+											<svg aria-hidden="true" focusable="false" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<rect y="0.5" width="40" height="40" rx="20" fill=""/>
+												<path d="M15.833 17.6667C14.949 17.6667 14.1011 18.0179 13.476 18.643C12.8509 19.2681 12.4997 20.1159 12.4997 21C12.4997 21.8841 12.8509 22.7319 13.476 23.357C14.1011 23.9821 14.949 24.3333 15.833 24.3333H17.4997C17.7207 24.3333 17.9326 24.4211 18.0889 24.5774C18.2452 24.7337 18.333 24.9457 18.333 25.1667C18.333 25.3877 18.2452 25.5996 18.0889 25.7559C17.9326 25.9122 17.7207 26 17.4997 26H15.833C14.5069 26 13.2352 25.4732 12.2975 24.5355C11.3598 23.5979 10.833 22.3261 10.833 21C10.833 19.6739 11.3598 18.4021 12.2975 17.4645C13.2352 16.5268 14.5069 16 15.833 16H17.4997C17.7207 16 17.9326 16.0878 18.0889 16.2441C18.2452 16.4004 18.333 16.6123 18.333 16.8333C18.333 17.0543 18.2452 17.2663 18.0889 17.4226C17.9326 17.5789 17.7207 17.6667 17.4997 17.6667H15.833ZM21.6663 16.8333C21.6663 16.6123 21.7541 16.4004 21.9104 16.2441C22.0667 16.0878 22.2787 16 22.4997 16H24.1663C25.4924 16 26.7642 16.5268 27.7019 17.4645C28.6396 18.4021 29.1663 19.6739 29.1663 21C29.1663 22.3261 28.6396 23.5979 27.7019 24.5355C26.7642 25.4732 25.4924 26 24.1663 26H22.4997C22.2787 26 22.0667 25.9122 21.9104 25.7559C21.7541 25.5996 21.6663 25.3877 21.6663 25.1667C21.6663 24.9457 21.7541 24.7337 21.9104 24.5774C22.0667 24.4211 22.2787 24.3333 22.4997 24.3333H24.1663C25.0504 24.3333 25.8982 23.9821 26.5234 23.357C27.1485 22.7319 27.4997 21.8841 27.4997 21C27.4997 20.1159 27.1485 19.2681 26.5234 18.643C25.8982 18.0179 25.0504 17.6667 24.1663 17.6667H22.4997C22.2787 17.6667 22.0667 17.5789 21.9104 17.4226C21.7541 17.2663 21.6663 17.0543 21.6663 16.8333ZM15.833 21C15.833 20.779 15.9208 20.567 16.0771 20.4107C16.2334 20.2545 16.4453 20.1667 16.6663 20.1667H23.333C23.554 20.1667 23.766 20.2545 23.9223 20.4107C24.0785 20.567 24.1663 20.779 24.1663 21C24.1663 21.221 24.0785 21.433 23.9223 21.5893C23.766 21.7455 23.554 21.8333 23.333 21.8333H16.6663C16.4453 21.8333 16.2334 21.7455 16.0771 21.5893C15.9208 21.433 15.833 21.221 15.833 21Z" fill="black"/>
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<section class="information">
+							<h2>
+								Maecenas lacinia felis nec placerat sollicitudin. Quisque placerat dolor at scelerisque imperdiet. Phasellus tristique felis dolor.
+							</h2>
+							<p>
+								Maecenas elementum in risus sed condimentum. Duis convallis ante ac tempus maximus. Fusce malesuada sed velit ut dictum. Morbi faucibus vitae orci at euismod. Integer auctor augue in erat vehicula, quis fermentum ex finibus.
+							</p>
+							<p>
+								Mauris pretium elit a dui pulvinar, in ornare sapien euismod. Nullam interdum nisl ante, id feugiat quam euismod commodo. Sed ultrices lectus ut iaculis rhoncus. Aenean non dignissim justo, at fermentum turpis. Sed molestie, ligula ut molestie ultrices, tellus ligula viverra neque, malesuada consectetur diam sapien volutpat risus. Quisque eget tortor lobortis, facilisis metus eu, elementum est. Nunc sit amet erat quis ex convallis suscipit. ur ridiculus mus.
+							</p>
+							<div class="information__media">
+								<div class="information__image">
+									<picture>
+									   <source srcset="img/oranges.webp" type="image/webp">
+									   <img src="img/oranges.jpg" alt="Oranges">
+									</picture>
+								</div>
+								<div class="information__image">
+									<picture>
+									   <source srcset="img/mango.webp" type="image/webp">
+									   <img src="img/mango.jpg" alt="Mango">
+									</picture>
+								</div>
+							</div>
+							<p>
+								Sed dictum non nulla eu imperdiet. Duis elit libero, vulputate quis vehicula ut, vestibulum ut mauris. Nullam non felis varius dui rutrum rutrum in a nisi. Suspendisse elementum rutrum lorem sed luctus. Proin iaculis euismod metus non sollicitudin. Duis vel luctus lacus. Nullam faucibus iaculis convallis. In ullamcorper nibh ipsum, eget lacinia eros pulvinar a. Integer accumsan arcu nec faucibus ultricies.
+							</p>
+						</section>
+						<section class="bannar">
+							<div class="bannar__image">
+								<picture>
+									<source srcset="img/bannar-image.webp" type="image/webp">
+									<img src="img/bannar-image.jpg" alt="Various fresh vegetables on a black background">
+								</picture>
+							</div>
+							<div class="bannar__information">
+								<div class="info">
+									<p>
+										Summer Sales
+									</p>
+									<h2>
+										Fresh Fruit
+									</h2>
+									<a href="#" class="info__link" target="_blank">
+                              <span>Shop Now</span>
+										<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none">
+											<path d="M16 7.50098H1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M9.94995 1.47559L16 7.49959L9.94995 13.5246" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</a>
+								</div>
+								<div class="offer">
+									<p>up to <span>56%</span> Off</p>
+								</div>
+							</div>
+						</section>
+						<section class="data-filling">
+							<h2 class="data-filling__title">
+								Leave a Comment
+							</h2>
+							<form action="#" class="data-filling__form form">
+                        <div class="form__name name">
+									<label class="name__label">
+										<h3 class="name__title">
+											Full Name
+										</h3>
+										<input type="text" name="form[]" required autocomplete="off" class="name__input" placeholder="Zakir Hossen">
+									</label>
+								</div>
+								<div class="form__email email">
+									<label class="email__label">
+										<h3 class="email__title">
+											Email
+										</h3>
+										<input type="email" name="form[]" required autocomplete="off" class="email__input" placeholder="zakirsoft.20@g|">
+									</label>
+								</div>
+								<div class="form__checkbox checkbox ">
+									<label class="checkbox__label">
+										<input type="checkbox" name="form[]" class="checkbox__input">
+										<h3 class="checkbox__title">
+											Save my name and email in this browser for the next time I comment.
+										</h3>
+									</label>
+								</div>
+								<div class="form__textarea textarea">
+									<label class="textarea__label">
+										<h3 class="textarea__title">Message</h3>
+										<textarea name="form[]" required placeholder="Write your comment here…" class="textarea__fild"></textarea>
+									</label>
+								</div>
+								<div class="form__button button">
+									<button class="button__post" type="submit">
+										Post Comments
+									</button>
+								</div>
+							</form>
+						</section>
+						<section class="comments">
+							<h2 class="comments__title">
+								Comments
+							</h2>
+							<ul class="comments__list">
+								<li class="comments__item">
+                           <article class="comment">
+                              <div class="comment__image">
+											<picture>
+												<source srcset="img/comments-1.webp" type="image/webp">
+												<img src="img/comments-1.jpg" alt="Photo of an unshaven man">
+											</picture>
+										</div>
+										<div class="comment__information">
+											<div class="comment__header">
+												<h3 class="comment__title">
+													Annette Black
+												</h3>
+												<time class="comment__date" datetime="2021-04-26">26 Apr, 2021</time>
+											</div>
+											<blockquote class="comment__text">
+												In a nisi commodo, porttitor ligula consequat, tincidunt dui. Nulla volutpat, metus eu aliquam malesuada, elit libero venenatis urna, consequat maximus arcu diam non diam.
+											</blockquote>
+										</div>
+									</article>
+								</li>
+								<li class="comments__item">
+                           <article class="comment">
+                              <div class="comment__image">
+											<picture>
+												<source srcset="img/comments-2.webp" type="image/webp">
+												<img src="img/comments-2.jpg" alt="Young man wearing glasses looking into the camera lens">
+											</picture>
+										</div>
+										<div class="comment__information">
+											<div class="comment__header">
+												<h3 class="comment__title">
+													Devon Lane
+												</h3>
+												<time class="comment__date" datetime="2021-04-24">24 Apr, 2021</time>
+											</div>
+											<blockquote class="comment__text">
+												Quisque eget tortor lobortis, facilisis metus eu, elementum est. Nunc sit amet erat quis ex convallis suscipit. Nam hendrerit, velit ut aliquam euismod, nibh tortor rutrum nisi, ac sodales nunc eros porta nisi. Sed scelerisque, est eget aliquam venenatis, est sem tempor eros.
+											</blockquote>
+										</div>
+									</article>
+								</li>
+								<li class="comments__item">
+                           <article class="comment">
+                              <div class="comment__image">
+											<picture>
+												<source srcset="img/comments-3.webp" type="image/webp">
+												<img src="img/comments-3.jpg" alt="Young unshaven man">
+											</picture>
+										</div>
+										<div class="comment__information">
+											<div class="comment__header">
+												<h3 class="comment__title">
+													Jacob Jones
+												</h3>
+												<time class="comment__date" datetime="2021-04-20">20 Apr, 2021</time>
+											</div>
+											<blockquote class="comment__text">
+												Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+											</blockquote>
+										</div>
+									</article>
+								</li>
+								<li class="comments__item">
+                           <article class="comment">
+                              <div class="comment__image">
+											<picture>
+												<source srcset="img/comments-4.webp" type="image/webp">
+												<img src="img/comments-4.jpg" alt="The bearded man with long hair">
+											</picture>
+										</div>
+										<div class="comment__information">
+											<div class="comment__header">
+												<h3 class="comment__title">
+													Jane Cooper
+												</h3>
+												<time class="comment__date" datetime="2021-04-18">18 Apr, 2021</time>
+											</div>
+											<blockquote class="comment__text">
+												Pellentesque feugiat, nibh vel vehicula pretium, nibh nibh bibendum elit, a volutpat arcu dui nec orci. Aenean dui odio, ullamcorper quis turpis ac, volutpat imperdiet ex.
+											</blockquote>
+										</div>
+									</article>
+								</li>
+								<li class="comments__item">
+                           <article class="comment">
+                              <div class="comment__image">
+											<picture>
+												<source srcset="img/comments-5.webp" type="image/webp">
+												<img src="img/comments-5.jpg" alt="Dark-skinned young woman with glasses on her head">
+											</picture>
+										</div>
+										<div class="comment__information">
+											<div class="comment__header">
+												<h3 class="comment__title">
+													Darrell Steward
+												</h3>
+												<time class="comment__date" datetime="2021-04-07">7 Apr, 2021</time>
+											</div>
+											<blockquote class="comment__text">
+												Nulla molestie interdum ultricies.
+											</blockquote>
+										</div>
+									</article>
+								</li>
+							</ul>
+							<button class="comments__button" type="button">
+								Load More
+							</button>
+						</section>
+					</article>
+					<aside class="blog__aside aside">
+						<form action="#" class="aside__form">
+							<button class="aside__search" type="submit">
+								<img src="img/search.svg" alt="Search icon">
+							</button>
+                     <input type="search" autocomplete="off" name="form[]" class="aside__input" placeholder="Search...">
+						</form>
+						<section class="top-categories">
+							<h2 class="top-categories__title">
+								Top Categories
+							</h2>
+							<ul class="top-categories__list">
+								<li class="top-categories__item">
+                           <a href="#" class="top-categories__link">
+										Fresh Fruit
+									</a>
+									<span>(134)</span>
+								</li>
+								<li class="top-categories__item">
+                           <a href="#" class="top-categories__link">
+										Vegetables
+									</a>
+									<span>(150)</span>
+								</li>
+								<li class="top-categories__item">
+                           <a href="#" class="top-categories__link">
+										Cooking
+									</a>
+									<span>(54)</span>
+								</li>
+								<li class="top-categories__item">
+                           <a href="#" class="top-categories__link">
+										Snacks
+									</a>
+									<span>(47)</span>
+								</li>
+								<li class="top-categories__item">
+                           <a href="#" class="top-categories__link">
+										Beverages
+									</a>
+									<span>(43)</span>
+								</li>
+								<li class="top-categories__item">
+                           <a href="#" class="top-categories__link">
+										Beauty & Health
+									</a>
+									<span>(38)</span>
+								</li>
+								<li class="top-categories__item">
+                           <a href="#" class="top-categories__link">
+										Bread & Bakery
+									</a>
+									<span>(15)</span>
+								</li>
+							</ul>
+						</section>
+						<section class="popular-tag">
+                     <h2 class="popular-tag__title">
+                        Popular Tag
+							</h2>
+							<ul class="popular-tag__list">
+								<li class="popular-tag__item">
+									<a href="#" class="popular-tag__link">Healthy</a>
+								</li>
+								<li class="popular-tag__item">
+									<a href="#" class="popular-tag__link">Low fat</a>
+								</li>
+								<li class="popular-tag__item">
+									<a href="#" class="popular-tag__link">Vegetarian</a>
+								</li>
+								<li class="popular-tag__item">
+									<a href="#" class="popular-tag__link">Bread</a>
+								</li>
+								<li class="popular-tag__item">
+									<a href="#" class="popular-tag__link">Kid foods</a>
+								</li>
+								<li class="popular-tag__item">
+									<a href="#" class="popular-tag__link">Vitamins</a>
+								</li>
+								<li class="popular-tag__item">
+									<a href="#" class="popular-tag__link">Snacks</a>
+								</li>
+								<li class="popular-tag__item">
+									<a href="#" class="popular-tag__link">Tiffin</a>
+								</li>
+								<li class="popular-tag__item">
+									<a href="#" class="popular-tag__link">Meat</a>
+								</li>
+								<li class="popular-tag__item">
+									<a href="#" class="popular-tag__link">Launch</a>
+								</li>
+								<li class="popular-tag__item">
+									<a href="#" class="popular-tag__link">Dinner</a>
+								</li>
+							</ul>
+						</section>
+						<section class="our-gallery">
+                     <h2 class="our-gallery__title">
+								Our Gallery
+							</h2>
+							<ul class="our-gallery__list">
+								<li class="our-gallery__item">
+									<picture>
+										<source srcset="img/gallery-1.webp" type="image/webp">
+										<img src="img/gallery-1.jpg" alt="Various fresh vegetables on a tray">
+									</picture>
+								</li>
+								<li class="our-gallery__item">
+									<picture>
+										<source srcset="img/gallery-2.webp" type="image/webp">
+										<img src="img/gallery-2.jpg" alt="Broccoli">
+									</picture>
+								</li>
+								<li class="our-gallery__item">
+									<picture>
+										<source srcset="img/gallery-3.webp" type="image/webp">
+										<img src="img/gallery-3.jpg" alt="Cutting fresh vegetables on a plate">
+									</picture>
+								</li>
+								<li class="our-gallery__item">
+									<picture>
+										<source srcset="img/gallery-4.webp" type="image/webp">
+										<img src="img/gallery-4.jpg" alt="Bulgarian pepper">
+									</picture>
+								</li>
+								<li class="our-gallery__item">
+									<picture>
+										<source srcset="img/gallery-5.webp" type="image/webp">
+										<img src="img/gallery-5.jpg" alt="Young carrots on the table">
+									</picture>
+								</li>
+								<li class="our-gallery__item">
+									<picture>
+										<source srcset="img/gallery-6.webp" type="image/webp">
+										<img src="img/gallery-6.jpg" alt="Green peas in an open pod">
+									</picture>
+								</li>
+								<li class="our-gallery__item">
+									<picture>
+										<source srcset="img/gallery-7.webp" type="image/webp">
+										<img src="img/gallery-7.jpg" alt="Two oranges on a green branch">
+									</picture>
+								</li>
+								<li class="our-gallery__item">
+									<picture>
+										<source srcset="img/gallery-8.webp" type="image/webp">
+										<img src="img/gallery-8.jpg" alt="Sliced ​​zucchini on the table">
+									</picture>
+								</li>
+							</ul>
+						</section>
+			         <section class="recently-added">
+							<h2 class="recently-added__title">
+								Recently Added
+							</h2>
+							<ul class="recently-added__list">
+								<li class="recently-added__item">
+									<article class="recently-added__article">
+                              <a href="#" class="recently-added__link">
+											<div class="recently-added__image">
+												<picture>
+													<source srcset="img/added-1.webp" type="image/webp">
+													<img src="img/added-1.jpg" alt="Diced avocado">
+												</picture>
+											</div>
+											<div class="recently-added__info">
+												<h3 class="recently-added__title">
+													Curabitur porttitor orci eget nequ accumsan.
+												</h3>
+												<div class="recently-added__date">
+													<img src="img/calendar.svg" alt="Calendar icon">
+													<time datetime="2021-04-25">Apr 25, 2021</time>
+												</div>
+											</div>
+										</a>
+									</article>
+								</li>
+								<li class="recently-added__item">
+									<article class="recently-added__article">
+                              <a href="#" class="recently-added__link">
+											<div class="recently-added__image">
+												<picture>
+													<source srcset="img/added-2.webp" type="image/webp">
+													<img src="img/added-2.jpg" alt="Two oranges on a green branch">
+												</picture>
+											</div>
+											<div class="recently-added__info">
+												<h3 class="recently-added__title">
+													Donec mattis arcu faucibus suscipit viverra.
+												</h3>
+												<div class="recently-added__date">
+													<img src="img/calendar.svg" alt="Calendar icon">
+													<time datetime="2021-04-25">Apr 25, 2021</time>
+												</div>
+											</div>
+										</a>
+									</article>
+								</li>
+								<li class="recently-added__item">
+									<article class="recently-added__article">
+                              <a href="#" class="recently-added__link">
+											<div class="recently-added__image">
+												<picture>
+													<source srcset="img/added-3.webp" type="image/webp">
+													<img src="img/added-3.jpg" alt="White bowl full of blueberries on the table">
+												</picture>
+											</div>
+											<div class="recently-added__info">
+												<h3 class="recently-added__title">
+													Quisque posuere tempus rutrum. Integer velit ex.
+												</h3>
+												<div class="recently-added__date">
+													<img src="img/calendar.svg" alt="Calendar icon">
+													<time datetime="2021-04-25">Apr 25, 2021</time>
+												</div>
+											</div>
+										</a>
+									</article>
+								</li>
+							</ul>
+						</section>
+					</aside>
+				</div>
+			</div>
+      </main>
+	   <footer class="footer">
+		   <div class="footer__content">
+			   FOOTER
+		   </div>
+	   </footer>
+	</div>
+</body>
+</html>
